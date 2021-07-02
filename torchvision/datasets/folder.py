@@ -32,7 +32,7 @@ def is_image_file(filename: str) -> bool:
     return has_file_allowed_extension(filename, IMG_EXTENSIONS)
 
 
-def find_classes(directory: str) -> Tuple[List[str], Dict[str, int]]:
+def find_classes(directory: str) -> Tuple[List[str], Dict[str, int]]:# 排序后创建一个由index和class entry相对应的字典与class entry相对应的元组
     """Finds the class folders in a dataset.
 
     See :class:`DatasetFolder` for details.
